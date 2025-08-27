@@ -293,24 +293,18 @@ Pour info l'intégralité du dossier `public` lors du `build` sera copié dans l
 
 ### 💻 Exercice 2 : Sass
 
-Vous devriez maintenant pouvoir utiliser Sass dans votre projet.
+À présent vous allez utiliser les spécificités de Sass dans votre projet.
 
-Modifier le fichier `style.scss` pour réécrire
+#### Exercice 2.1 : Nesting et Variables
 
-- Sass et le nesting .
+Utilisez et ajoutez des `variables` Sass à votre code.
 
-#### Exercice 2.1 : Variables
+Faites un `build` pour observer les changements.
 
-Ajoutez des `variables` Sass à votre code.
-Regardez les fonctions de Sass pour modifier la couleur au survol de manière dynamique.
+Regardez dans la documentation les fonctions de Sass pour modifier la couleur au survol de manière dynamique.
 https://sass-lang.com/documentation/modules/color/
 
-#### Exercice 2.3 : Maps et boucles
-
-Simplifier votre code en utilisant une Map et une boucle `@each`.
-https://sass-lang.com/documentation/at-rules/control/each
-
-#### Exercice 2.4 : avec des variables CSS.
+#### Exercice 2.3 : Maps et boucles avec des variables CSS.
 
 Reprendre votre travail en utilisant des variables CSS (custom properties).
 
@@ -325,11 +319,15 @@ En utilisant la `Maps` créer
     }
 ```
 
-#### Exercice 2.5 : partials.
+Simplifier votre code en utilisant une Map et une boucle `@each`.
+https://sass-lang.com/documentation/at-rules/control/each
+
+#### Exercice 2.4 : partials.
 
 Réorganiser votre code en utilisant des `partials`.
 
-https://sass-lang.com/guide#topic-4
+> [!TIP]
+> Doc : https://sass-lang.com/guide#topic-4
 
 ### 💻 Exercice 3 : card
 
