@@ -172,7 +172,7 @@ Copiez le code suivant dans votre fichier `style.scss` :
 /* Rubik Variable Font Face */
 @font-face {
   font-family: "Rubik";
-  src: url("/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -180,7 +180,7 @@ Copiez le code suivant dans votre fichier `style.scss` :
 
 @font-face {
   font-family: "Rubik";
-  src: url("/Rubik/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
@@ -282,6 +282,14 @@ body {
   --_bg: oklch(0.7123 0.1656 22.18);
 }
 ```
+
+Attention vous devez télécharger depuis google fonts la police `Rubik` et la placer dans le dossier `public/fonts` de votre projet.
+Le dossier `public/fonts` doit contenir les fichiers de police suivants :
+
+- Rubik-VariableFont_wght.ttf
+- Rubik-Italic-VariableFont_wght.ttf
+
+Pour info l'intégralité du dossier `public` lors du `build` sera copié dans le dossier `dist`. Vous pouvez y ranger tous vos assets (images, polices, etc.).
 
 ### 💻 Exercice 2 : Sass
 
