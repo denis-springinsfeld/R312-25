@@ -137,6 +137,8 @@ Rem : vous pouvez aussi ajouter `prettier` pour formater votre code.
 npm install -D prettier
 ```
 
+---
+
 ## B\_ EXERCICES
 
 ### 💻 Exercice 1 : Pur CSS dans un fichier SCSS
@@ -302,8 +304,8 @@ Utilisez et ajoutez des `variables` Sass à votre code.
 
 Faites un `build` pour observer les changements.
 
-Regardez dans la documentation les fonctions de Sass pour modifier la couleur au survol de manière dynamique.
-https://sass-lang.com/documentation/modules/color/
+> [!TIP] Regardez dans la documentation les fonctions de Sass pour modifier la couleur au survol de manière dynamique.
+> https://sass-lang.com/documentation/modules/color/
 
 #### Exercice 2.3 : Maps et boucles avec des variables CSS.
 
@@ -312,16 +314,16 @@ Reprendre votre travail en utilisant des variables CSS (custom properties).
 En utilisant la `Maps` créer
 
 ```css
-|  :root {
-|       --clr-primary: 198 93% 60%;
-        --clr-success: 158 64% 52%;
-        --clr-warning: 43 96% 56%;
-        --clr-error: 0 91% 71%;
-    }
+:root {
+  --clr-primary: hsl(198 93% 60%);
+  --clr-success: hsl(158 64% 52%);
+  --clr-warning: hsl(43 96% 56%);
+  --clr-error: hsl(0 91% 71%);
+}
 ```
 
-Simplifier votre code en utilisant une Map et une boucle `@each`.
-https://sass-lang.com/documentation/at-rules/control/each
+> [!TIP] Simplifier votre code en utilisant une Map et une boucle `@each`.
+> https://sass-lang.com/documentation/at-rules/control/each
 
 #### Exercice 2.4 : partials.
 
@@ -333,14 +335,17 @@ Réorganiser votre code en utilisant des `partials`.
 ### 💻 Exercice 3 : card
 
 DS :
+
+```css
 --font-family-primary: "Vollkorn", serif;
---font-family-primary: 'Vollkorn', serif;
---font-family-secondary: 'PT Sans', sans-serif;
+--font-family-primary: "Vollkorn", serif;
+--font-family-secondary: "PT Sans", sans-serif;
 --font-size-heading: 2rem;
 --font-size-caption: 0.875rem;
 --color-border: #34b897;
 --color-text: #222022;
---color-highlight-primary: #FFEF7E;
---color-highlight-secondary: #B7F9E9;
+--color-highlight-primary: #ffef7e;
+--color-highlight-secondary: #b7f9e9;
 --border-radius: 1.25rem;
 --box: 10px;
+```
