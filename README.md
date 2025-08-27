@@ -84,8 +84,9 @@ Pour vérifier le fonctionnement, ouvrez votre navigateur et accédez à `http:/
 
 Pour suspendre le serveur, utilisez `Ctrl + C` dans le terminal.
 
-Attention vous travaillez sur **un projet en développement**.
-Pour construire le projet, exécutez la commande suivante :
+> [!WARNING]
+> Attention vous travaillez sur **un projet en développement**.
+> Pour construire le projet, exécutez la commande suivante :
 
 ```shell
 # Suspendre le serveur
