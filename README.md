@@ -304,7 +304,8 @@ Utilisez et ajoutez des `variables` Sass à votre code.
 
 Faites un `build` pour observer les changements.
 
-> [!TIP] Regardez dans la documentation les fonctions de Sass pour modifier la couleur au survol de manière dynamique.
+> [!TIP]
+> Regardez dans la documentation les fonctions de Sass pour modifier la couleur au survol de manière dynamique.
 > https://sass-lang.com/documentation/modules/color/
 
 #### Exercice 2.3 : Maps et boucles avec des variables CSS.
@@ -322,7 +323,8 @@ En utilisant la `Maps` créer
 }
 ```
 
-> [!TIP] Simplifier votre code en utilisant une Map et une boucle `@each`.
+> [!TIP]
+> Simplifier votre code en utilisant une Map et une boucle `@each`.
 > https://sass-lang.com/documentation/at-rules/control/each
 
 #### Exercice 2.4 : partials.
