@@ -37,6 +37,7 @@ size-36: 36px
 
 ## Exercice 1 : Création d'une card 'plan' : Nesting + Lists/Maps + Variables CSS
 
+**Creation d'un Projet Vite + Sass**
 ![Exercice 1 - Aperçu de la card plan](Exo_1_4.png)
 Création d'une card 'plan' en utilisant des `List` et `Maps` Sass pour initialiser les Variables CSS.
 
@@ -51,8 +52,8 @@ Vous pouvez contextualiser les variables CSS au niveau du composant card avec de
 --_btn-bg
 --_btn-text-hover
 --_btn-bg-hover
---_plan-shadow: none;
---_plan-scale: 1;
+--_plan-shadow
+--_plan-scale
 ```
 
 exemple : `--_bg: var(--clr-neutral-100);`
