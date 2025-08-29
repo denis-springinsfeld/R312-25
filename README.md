@@ -96,7 +96,7 @@ style.scss
 
 ## Exercice 4 : Page Hosting Plan
 
-![Exercice 4 - Aperçu de la card plan](TP1_pricing.png)
+![Exercice 4 - Aperçu de la card plan](TD2_pricing.png)
 
 Tiny
 5 domain
