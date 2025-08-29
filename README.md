@@ -76,11 +76,12 @@ Base de code
 
 ## Exercice 2 : Dark card
 
+Créer un modifier `--active` pour créer une variante de la card 'plan'.
 Créer un modifier `--dark` pour créer une variante de la card 'plan'.
 
 ## Exercice 3 : Refactoring
 
-Utilisez des partials pour restructurer votre code.
+Utilisez des `partials` pour restructurer votre code.
 
 Structure du dossier src :
 
