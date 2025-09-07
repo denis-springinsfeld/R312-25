@@ -80,7 +80,7 @@ npm install -D prettier prettier-plugin-tailwindcss
 
 ## Exercice :
 
-- 1 Créer une carte Call to Action avec TailwindCSS en utilisant les classes de base.
+### 1 Créer une carte Call to Action avec TailwindCSS en utilisant les classes de base.
 
 ![image](doc/Exo1_S.png)
 ![image](doc/Exo1_M.png)
@@ -104,7 +104,28 @@ npm install -D prettier prettier-plugin-tailwindcss
 </article>
 ```
 
-- 2 Configuration des Variables CSS dans le fichier `index.css`
+### 2 Configuration des Variables CSS dans le fichier `index.css`
+
+- Ajoutez la directive `@theme` et modifiez la couleur que vous avez utilisée dans la carte : `--color-blue-500`
+
+- Ajoutez une variable `--background-image-bgImage` et utilisez cette variable pour définir une image de fond dans la carte.
+
+```css
+@import "tailwindcss";
+
+@theme {
+  /* Déclaration de variables CSS dans le thème permet de générer également les classes utilitaires : bg-bgImage, et utilisez cette variable pour définir une image de fond dans la carte. */
+  --color-blue-500: #f6893bff;
+  /* Crée une classe utilitaire pour l'image de fond, propriété css background-image */
+  --background-image-bgImage: linear-gradient(
+      to top,
+      --alpha(var(--color-blue-500) / 1),
+      --alpha(var(--color-blue-500) / 0.75)
+    ), url("/src/assets/bg-image.jpg");
+}
+```
+
+- Créer des thèmes colorés simplement en utilisant les variables CSS
 
 ```css
 @import "tailwindcss";
@@ -139,6 +160,6 @@ npm install -D prettier prettier-plugin-tailwindcss
 }
 ```
 
-- Créer des thèmes Red, Neon ...
+- Sur ce modèle, créez des thèmes Red, Neon ...
 
 ![](doc/Exo_Final.png)
