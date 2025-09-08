@@ -45,7 +45,7 @@ export default defineConfig({
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 
-- Ajouter la configuration Prettier :
+- Ajouter un fichier `.prettierrc` à la racine du projet, pour la configuration de Prettier :
 
 ```js
 // .prettierrc
