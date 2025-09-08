@@ -121,7 +121,7 @@ npm install -D prettier prettier-plugin-tailwindcss
       to top,
       --alpha(var(--color-blue-500) / 1),
       --alpha(var(--color-blue-500) / 0.75)
-    ), url("/src/assets/bg-image.jpg");
+    ), url("/bg-image.jpg");
 }
 ```
 
