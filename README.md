@@ -8,7 +8,12 @@
 
 - Créez une carte en utilisant les couleurs et la typographie fournies ci-dessous.
 
+![Exo1](/Ecrans/Exo1_S.png)
+![Exo1](/Ecrans/Exo1_L.png)
+
 - Créer un variant de carte en ajoutant uniquement une classe `card--variant` à la carte existante.
+
+![Exo2](/Ecrans/Exo2.png)
 
 ---
 
