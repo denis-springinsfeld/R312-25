@@ -2,7 +2,7 @@
 
 ## Exercice :
 
-- Créez un projet Tailwind CSS
+- Créez un projet ViteJS + Tailwind CSS
 
 - Configurez Tailwind CSS avec `@theme`
 
