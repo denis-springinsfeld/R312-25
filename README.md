@@ -1,5 +1,11 @@
 # R312 - CM TD / BUT 2 / 2025-2026
 
+# Liens utiles
+
+## Git :
+
+[aide-mémoire git](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
+
 # Bonnes pratiques CSS
 
 ## Bonnes pratiques CSS globales
