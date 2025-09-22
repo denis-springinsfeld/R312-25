@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* inline indique à Tw qu'il doit utiliser des variables css déclarée dans le :root */
+/* https://tailwindcss.com/docs/theme */
+@theme inline {
+  /* Utilisation des tokens semantique - Création par Tw de variables css + classses utilitaire */
+
+  /* Clr Base Card */
+  --color-skin-base: var(--clr-text-base);
+  --color-skin-inverted: var(--clr-text-inverted);
+  --color-skin-fill: var(--clr-fill);
+  /* Couleur BTN */
+  --color-skin-accent: var(--clr-button-accent);
+  --color-skin-accent-text: var(--clr-button-text);
+  --color-skin-accent-hover: var(--clr-button-accent-hover);
+  /* Couleur bouton désactivé */
+  --color-skin-muted-button: var(--clr-button-muted);
+
+  /* Propriété background-image */
+  --background-image-img:
+    linear-gradient(
+      to top,
+      --alpha(var(--clr-fill) / 1),
+      --alpha(var(--clr-fill) / 0.75)
+    ),
+    var(--mon-image);
+}
+@layer base {
+  :root {
+    /* Token sémantique - variables css uniquement*/
+    --clr-bg: var(--color-indigo-700);
+    --clr-fg: var(--color-white);
+    --mon-image: url("/bg-image.jpg");
+
+    /* Palette de couleurs de base */
+    --clr-text-base: oklch(1 0 0);
+    --clr-text-inverted: oklch(0.5 0.2 277);
+
+    --clr-fill: oklch(0.5 0.2 278);
+    --clr-button-accent: oklch(1 0 0);
+    --clr-button-text: oklch(0.5 0.2 278);
+    --clr-button-accent-hover: oklch(1 0.2 272);
+    --clr-button-muted: oklch(0.6 0.2 277);
+  }
+
+  .redTheme {
+    --clr-text-base: oklch(1 0 0);
+    --clr-text-muted: oklch(0.9 0.06 18.4);
+    --clr-text-inverted: oklch(0.6 0.21 27);
+    --clr-fill: oklch(0.5 0.2 27.5);
+    --clr-button-accent: oklch(1 0 0);
+    --clr-button-text: oklch(0.5 0.2 27.5);
+    --clr-button-accent-hover: oklch(1 0.2 30);
+    --clr-button-muted: oklch(0.6 0.2 25);
+
+    --clr-fill: oklch(55.343% 0.22243 29.009);
+
+    --mon-image: url("/vite.svg");
+  }
+}
