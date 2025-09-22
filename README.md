@@ -114,3 +114,8 @@ export default defineConfig({
 6. Pousser vos modifications sur la branche `main`. Le **workflow GitHub Actions** va se déclencher automatiquement et déployer votre site sur GitHub Pages à l'adresse :`https://<votre-nom-utilisateur>.github.io/<nom-du-depot>/`
 
 Vous pouvez vérifier le statut du déploiement dans l'onglet **Actions** de votre dépôt GitHub.
+
+## PLUS
+
+- Ajouter un Light Mode toggle button
+- Ajouter un Infinite Slider CSS pour les logo des technologies : sans répétition de code html, sans JS, responsive, avec pause au hover.
